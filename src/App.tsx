@@ -313,13 +313,10 @@ function App() {
             {/* Section Title */}
             <div className="title-wrap">
               <h2 className="section-title">
-                About <b> The Trainer </b>
+              About <b> Arpan Chatterjee </b>
               </h2>
               <p className="section-sub-title">
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                et. Nulla vitae elit libero, a <br />
-                pharetra augue. Donec id elit non mi porta gravida at eget
-                metus.
+              We introduce Arpan Chatterjee, a remarkably talented and accomplished stock trader <br /> with a track record of excellence and success in the financial markets.
               </p>
             </div>
             {/* End of Section Title */}
@@ -331,13 +328,9 @@ function App() {
                   </div>
                   <h4 className="mb-4">Arpan Chatterjee</h4>
                   <p>
-                    Responsible for the promotion of ARK Ark Investment
-                    introduced into the Indian market, for the company's
-                    publicity and word of mouth to recruit students, the project
-                    is mainly to do charity as the main part of the share as a
-                    supplement, the customer all the share of the donation to
-                    the Indian Kargidar Institute! On the other hand, the main
-                    thing is to help domestic
+                  Arpan Chatterjee, a visionary leader, founder of Golden-Gate Investments, is a name synonymous with innovative investment strategies and philanthropic initiatives. With a rich background in financial markets, Arpan takes on multiple roles to drive positive change in the world of finance.
+
+Arpan is deeply committed to charitable causes and has integrated them into his professional responsibilities. As part of this unique approach, a significant portion of the company's shares is dedicated to supporting the Indian Kargidar Institute, a testament to his dedication to making a meaningful impact on society.
                   </p>
                 </div>
                 {/*/ .col-md-4.col-md-offset-2.col-sm-6 */}
@@ -349,30 +342,7 @@ function App() {
               {/*/ .featurettes-item */}
             </div>
             {/*/ .featurettes-wrap */}
-            <div className="featurettes-wrap text-left">
-              <div className="row featurettes-item">
-                <div className="col-md-4 offset-md-2 col-sm-6">
-                  <img className="my-4" src="client/trading2.webp" alt="" />
-                </div>
-                {/*/ .col-md-4.col-md-offset-2.col-sm-6 */}
-                <div className="col-md-4 offset-md-right-2 col-sm-6 mb-5">
-                  <div className="my-4">
-                    <span className="lnr lnr-bubble fs-40 color-primary" />
-                  </div>
-                  <h4 className="mb-4">Prashant Shah</h4>
-                  <p>
-                    Prashant Shah stands as a distinguished P&amp;F analyst in
-                    India, introducing a pioneering approach to trading
-                    characterized by objectivity and rule-based principles. It
-                    is with great privilege and honor that we extend a warm
-                    welcome to him as a member of the Industry Board of Advisors
-                    at Golden-Gate Investments.
-                  </p>
-                </div>
-                {/*/ .col-md-4.col-md-offset-right-2.col-sm-6 */}
-              </div>
-              {/*/ .featurettes-item */}
-            </div>
+    
             {/*/ .featurettes-wrap */}
             <div className="featurettes-wrap text-left">
               <div className="row featurettes-item">
@@ -494,7 +464,7 @@ function App() {
           <h2 className="section-title">
             <b>Testimonials</b>
           </h2>
-          <p className="section-sub-title">Our Clients Say!</p>
+          <p className="section-sub-title">From Our Valued Clients:</p>
         </div>
         <div className="row">
           {/* Blog */}
@@ -618,7 +588,7 @@ function App() {
         {/* Section Title */}
         <div className="title-wrap">
           <h2 className="section-title">
-            Who love to <b> work</b> with us
+          Our Trade <b> Partners </b> 
           </h2>
         </div>
         {/* End of Section Title */}
