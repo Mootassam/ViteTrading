@@ -517,7 +517,7 @@ function App() {
                             <p>
                               I'm Raj, an IT professional in Mumbai. My life
                               changed when I began trading stocks and met Mr.
-                              Arpun. One smart startup investment allowed me to
+                              Arpan. One smart startup investment allowed me to
                               quit my job and become a full-time trader. My
                               story highlights how patience and smart choices
                               can turn an average person into a successful
