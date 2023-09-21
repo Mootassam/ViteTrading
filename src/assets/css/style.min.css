@@ -133,6 +133,7 @@ body:after {
   background-color: #fff;
   padding: 12px;
   border-radius: 1px;
+  cursor: pointer;
 }
 
 .icons {
