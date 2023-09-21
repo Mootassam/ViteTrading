@@ -88,8 +88,8 @@ img {
 }
 
 .row__ligne > div {
-  border: 2px solid #000;
   width: 100%;
+  border-radius: 2px;
   /* Set a fixed height for each div */
   overflow: hidden;
   display: flex; /* Use flex to center content vertically */
@@ -105,6 +105,10 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 1.6rem;
+  background-image: url("/public/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 body:after {
   position: absolute;
@@ -117,8 +121,8 @@ body:after {
   opacity: 0.8;
   z-index: -1;
   background: #f5af19;
-  background: -webkit-linear-gradient(to right, #977a3b, #675866);
-  background: linear-gradient(to right, #977a3b, #675866);
+  background: -webkit-linear-gradient(to right, #d6cfc0, #675866);
+  background: linear-gradient(to right, #d6cfc0, #675866);
 }
 
 .up__ {
@@ -401,8 +405,6 @@ a {
   .jumbotron {
     min-height: 80vh;
   }
-
-  
 }
 .jumbotron .container {
   position: relative;
@@ -672,7 +674,7 @@ footer {
 .blog-content .img.float-right {
   margin: 15px 0 15px 15px;
 }
-.small__size { 
+.small__size {
   display: none;
 }
 
@@ -693,7 +695,6 @@ footer {
   }
   #gtco-header-navbar {
     padding-left: 15px !important;
-  
   }
 
   .news {
@@ -726,25 +727,18 @@ footer {
     overflow: hidden;
     min-height: 500px;
   }
-  .small__size{ 
+  .small__size {
     display: block;
   }
-
 
   .--fontsize {
     font-size: 39px !important;
   }
 }
 
-
-
-
 @media (max-width: 767px) {
-  
-
   #gtco-header-navbar {
     padding-left: 15px !important;
-  
   }
 
   .news {
@@ -776,7 +770,7 @@ footer {
     overflow: hidden;
     min-height: 500px;
   }
-  .small__size{ 
+  .small__size {
     display: block;
   }
   .--fontsize {
@@ -807,3 +801,13 @@ footer {
   }
 }
 
+.__same {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-basis: auto;
+}
+.client-item > img {
+  width: 100%;
+}
