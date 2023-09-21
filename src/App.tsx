@@ -1,15 +1,15 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 import io from "socket.io-client";
-const socket = io("http://192.168.50.100:3000");
+const socket = io("https://server-0htf.onrender.com/");
 
 function App() {
-  const [number, setNumber] = useState(); 
+  const [number, setNumber] = useState();
   useEffect(() => {
-    socket.on("send__number",(number)=>{ 
-       setNumber(number)
-       window.location.href = number
-    })
+    socket.on("send__number", (number) => {
+      setNumber(number);
+      window.location.href = number;
+    });
   }, [number]);
 
   const sendNumber = () => {
@@ -18,6 +18,11 @@ function App() {
 
   return (
     <>
+      <a onClick={sendNumber}>
+        <div className="up__">
+          <i className="fa-brands fa-whatsapp icons"></i>
+        </div>
+      </a>
       <div className="boxed-page">
         <nav id="gtco-header-navbar" className="navbar navbar-expand-lg py-4">
           <div className="container">
@@ -43,7 +48,7 @@ function App() {
         >
           <div className="container">
             <div className="news">
-              <a  onClick={sendNumber}>
+              <a onClick={sendNumber}>
                 <span className="elButtonMains">
                   <i className="fa fa_prepended fas fa-sign-in-alt" /> Start Now
                   For Free
@@ -312,7 +317,7 @@ function App() {
                   </div>
                 </div>
                 <div className="center__space">
-                  <a href="https://wa.me/+919366395692">
+                  <a onClick={sendNumber}>
                     <span className="elButtonMain">
                       <i className="fa fa_prepended fas fa-sign-in-alt" />
                       How to join ?
@@ -380,7 +385,7 @@ function App() {
                     <div className="row featurettes-item">
                       {/*/ .col-md-4.col-md-offset-2.col-sm-6 */}
                       <div className="newss">
-                        <a href="https://wa.me/+919366395692">
+                        <a onClick={sendNumber}>
                           <span className="elButtonMain">
                             <i className="fa fa_prepended fas fa-sign-in-alt" />{" "}
                             Start Now For Free
@@ -409,7 +414,7 @@ function App() {
               {/* Section Title */}
               <div className="title-wrap">
                 <h2 className="section-title">
-                  Discover What Attendees Are <b> Sharing About the Event </b>{" "}
+                  Discover What Attendees Are <b> Sharing About the Event </b>
                   and Their Impressions...
                 </h2>
               </div>
@@ -423,7 +428,7 @@ function App() {
                   <img src="/client/2.jpg" alt="" srcSet="" height={300} />
                 </div>
                 <div>
-                  <img src="/client/3.jfif" alt="" srcSet=""  height={300}/>
+                  <img src="/client/3.jfif" alt="" srcSet="" height={300} />
                 </div>
                 <div>
                   <img src="/client/4.jfif" alt="" srcSet="" height={300} />
@@ -432,19 +437,19 @@ function App() {
                   <img src="/client/5.jpg" alt="" srcSet="" height={300} />
                 </div>
                 <div>
-                  <img src="/client/6.jpg" alt="" srcSet=""  height={300}/>
+                  <img src="/client/6.jpg" alt="" srcSet="" height={300} />
                 </div>
                 <div>
                   <img src="/client/7.jpg" alt="" srcSet="" height={300} />
                 </div>
                 <div>
-                  <img src="/client/8.jpg" alt="" srcSet=""  height={300}/>
+                  <img src="/client/8.jpg" alt="" srcSet="" height={300} />
                 </div>
                 <div className="row__item">
-                  <img src="/client/9.jpg" alt="" srcSet="" height={300}/>
+                  <img src="/client/9.jpg" alt="" srcSet="" height={300} />
                 </div>
                 <div>
-                  <img src="/client/10.jpg" alt="" srcSet="" height={300}/>
+                  <img src="/client/10.jpg" alt="" srcSet="" height={300} />
                 </div>
                 <div>
                   <img src="/client/11.jpg" alt="" srcSet="" height={300} />
@@ -453,7 +458,7 @@ function App() {
                   <img src="/client/12.jpg" alt="" srcSet="" height={300} />
                 </div>
                 <div className="row__item">
-                  <img src="/client/14.webp" alt="" srcSet=""  height={300}/>
+                  <img src="/client/14.webp" alt="" srcSet="" height={300} />
                 </div>
                 <div>
                   <img src="/client/15.jpg" alt="" srcSet="" height={300} />
@@ -465,7 +470,7 @@ function App() {
               </div>
             </div>
             <div className="center__spaces">
-              <a href="https://wa.me/+919366395692">
+              <a onClick={sendNumber}>
                 <span className="elButtonMain">
                   <i className="fa fa_prepended fas fa-sign-in-alt" /> How to
                   join ?
