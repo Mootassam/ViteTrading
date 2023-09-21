@@ -621,7 +621,7 @@ function App() {
                 <div className="col-md-2">
                   {/* Client Item */}
                   <div className="client-item">
-                    <img className="img-responsive" src="stock.png" alt=" " />
+                    <img className="img-responsive same-size-image" src="stock.png" alt=" "  />
                   </div>
                   {/* End of Client Item  */}
                 </div>
@@ -629,7 +629,7 @@ function App() {
                   {/* Client Item */}
                   <div className="client-item">
                     <img
-                      className="img-responsive"
+                      className="img-responsive same-size-image"
                       src="company2.jpg"
                       alt=" "
                     />
@@ -640,7 +640,7 @@ function App() {
                   {/* Client Item  */}
                   <div className="client-item">
                     <img
-                      className="img-responsive"
+                      className="img-responsive same-size-image"
                       src="company3.jpg"
                       alt=" "
                     />
@@ -650,7 +650,7 @@ function App() {
                 <div className="col-md-2">
                   {/* Client Item  */}
                   <div className="client-item">
-                    <img className="img-responsive" src="kotak.png" alt=" " />
+                    <img className="img-responsive same-size-image" src="kotak.png" alt=" " />
                   </div>
                   {/* End of Client Item  */}
                 </div>
@@ -658,7 +658,7 @@ function App() {
                   {/* Client Item  */}
                   <div className="client-item">
                     <img
-                      className="img-responsive"
+                      className="img-responsive same-size-image"
                       src="company4.png"
                       alt=" "
                     />
@@ -668,7 +668,7 @@ function App() {
                 <div className="col-md-2">
                   {/* Client Item  */}
                   <div className="client-item">
-                    <img className="img-responsive" src="rigi.jpg" alt=" " />
+                    <img className="img-responsive same-size-image" src="rigi.jpg" alt=" " />
                   </div>
                   {/* End of Client Item */}
                 </div>
