@@ -557,7 +557,7 @@ function App() {
                               Chatterjee's guidance. It's a testament to the
                               power of determination and financial knowledge in
                               changing lives.
-                            </p>
+                            </p> 
                           </div>
                           <div className="blog-author"></div>
                         </div>
@@ -590,7 +590,7 @@ function App() {
                               ventured into stock trading for financial
                               independence. Starting small, I dedicated years to
                               learning about the stock market. Following Mr.
-                              Arpun's advice paid off, and now I use my trading
+                              Arpan's advice paid off, and now I use my trading
                               gains to fuel my entrepreneurial projects. It
                               proves newcomers can flourish in the stock market.
                             </p>
