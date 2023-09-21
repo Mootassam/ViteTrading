@@ -130,6 +130,9 @@ body:after {
   bottom: 20px;
   right: 20px;
   z-index: 20;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 1px;
 }
 
 .icons {
